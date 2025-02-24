@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Inscribir</h1>
+    <h2> Alumnos</h2>
+    <form class="inscripcion" action="guardarA.php" method="POST">
+
+    <label for="Codigo">Coloca matricula </label>
+    <input type="text" id="Codigo" name="Codigo" maxlength="15" required><br><br>
+    
+    <label for="Nombre">Coloca Nombre  </label>
+    <input type="text" id="Nombre" name="Nombre" maxlength="30" required><br><br>
+
+    <label for="Apellidos">Coloca Apellidos </label>
+    <input type="text" id="Apellidos" name="Apellidos" maxlength="30" required><br><br>
+
+    <label for="Edad">Coloca Edad</label>
+    <input type="number" id="Edad" name="Edad" maxlength="5" required><br><br>
+
+    <label for="Telefono">Coloca Telefono </label>
+    <input type="text" id="Telefono" name="Telefono" maxlength="10" required><br><br>
+
+    <button class="submit" type="submit">Guardar Alumno</button>
+    </form>
+    </div>
+</body>
+</html>
